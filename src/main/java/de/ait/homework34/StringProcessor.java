@@ -23,7 +23,7 @@ public class StringProcessor {
 
         // Example usage
         String str1 = "hello1";
-        String str2 = "world";
+        String str2 = "world2";
 
         System.out.println("Concatenated string: " + processor.concatenate(str1, str2));
         System.out.println("Length of string: " + processor.getLength(str1));
