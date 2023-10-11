@@ -7,7 +7,7 @@ public class CalculatorSim {
     }
 
     public int divide(int a, int b) {
-        if (b == 0) {
+        if (b == 0.) {
             return -1;  // Результат деления на ноль
         } else {
             return a / b;
