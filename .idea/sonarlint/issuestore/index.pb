@@ -12,6 +12,7 @@ G.idea/sonarlint/issuestore/0/5/05ed2c746e6d46c925ec8d312e3f68ee17212b89,1\6\16
 Å
 Q.idea/sonarlint/securityhotspotstore/0/5/05ed2c746e6d46c925ec8d312e3f68ee17212b89,2\6\2661b876bfef2dbd2b8ca2dd22ac32bbcbb09b32
 Å
-Q.idea/sonarlint/securityhotspotstore/5/8/586d97b640c52a081d2e0eb12f4925cf02362a9b,7\f\7f5bc9e1bce40c981fa6310bf35dea74e2401f16
-Å
 Q.idea/sonarlint/securityhotspotstore/7/1/71381584675d186db3e18e30ef843cee860c04b1,b\4\b4e7a26ca755ffa221a182267397d2249deb83b0
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
