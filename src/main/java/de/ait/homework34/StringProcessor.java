@@ -22,8 +22,8 @@ public class StringProcessor {
         StringProcessor processor = new StringProcessor();
 
         // Example usage
-        String str1 = "hello122";
-        String str2 = "world2";
+        String str1 = "hello";
+        String str2 = "world";
 
         System.out.println("Concatenated string: " + processor.concatenate(str1, str2));
         System.out.println("Length of string: " + processor.getLength(str1));
