@@ -13,7 +13,7 @@ public class CollectionSet {
         Set<String> stringSet = new HashSet<>();
 
         stringSet.add("Alex1");
-        stringSet.add("Anna");
+        stringSet.add("Anna2");
         stringSet.add("Max");
 
         for (String name: stringSet)
