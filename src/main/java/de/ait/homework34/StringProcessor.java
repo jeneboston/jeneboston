@@ -22,7 +22,7 @@ public class StringProcessor {
         StringProcessor processor = new StringProcessor();
 
         // Example usage
-        String str1 = "hello2";
+        String str1 = "hello";
         String str2 = "world";
 
         System.out.println("Concatenated string: " + processor.concatenate(str1, str2));
