@@ -12,7 +12,7 @@ public class CollectionSet {
        // Set<String> stringSet = new HashSet<>(initialCapacity,loadFactor);
         Set<String> stringSet = new HashSet<>();
 
-        stringSet.add("Alex");
+        stringSet.add("Alex1");
         stringSet.add("Anna");
         stringSet.add("Max");
 
