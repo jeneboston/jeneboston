@@ -1,17 +1,18 @@
 package de.ait.homework37;
 
 import java.util.List;
-import java.util.UUID;
 import java.util.ArrayList;
+import java.util.UUID;
 
-public class MobilePhoneStore {
-    private ArrayList<MobilePhone> mobilePhones = new ArrayList<>();
+public class InventoryManager {
 
-    public boolean addMobilePhone(MobilePhone phone) {
+    private static ArrayList<MobilePhone> mobilePhones = new ArrayList<>();
+
+    public static boolean addMobilePhone(MobilePhone phone) {
         return mobilePhones.add(phone);
     }
 
-    public MobilePhone getMobilePhone(int id) {
+    public static MobilePhone getMobilePhone(UUID id) {
         for (MobilePhone mobilePhone : mobilePhones) {
             if (mobilePhone.getId().equals(id)) {
                 return mobilePhone;
@@ -20,7 +21,7 @@ public class MobilePhoneStore {
         return null;
     }
 
-    public boolean updateMobilePhone(int id, MobilePhone newMobilePhone) {
+    public static boolean updateMobilePhone(UUID id, MobilePhone newMobilePhone) {
         MobilePhone mobilePhone = getMobilePhone(id);
         if (mobilePhone != null) {
             mobilePhone.setId(newMobilePhone.getId());
@@ -32,7 +33,7 @@ public class MobilePhoneStore {
         return true; // Return true to indicate a successful update.
     }
 
-    public boolean deleteMobilePhone(int id) {
+    public static boolean deleteMobilePhone(UUID id) {
         MobilePhone phone = getMobilePhone(id);
         if (phone != null) {
             mobilePhones.remove(phone);
@@ -41,7 +42,7 @@ public class MobilePhoneStore {
         return false;
     }
 
-    public List<MobilePhone> getAllMobilePhones() {
+    public static List<MobilePhone> getAllMobilePhones() {
         return mobilePhones;
     }
 }

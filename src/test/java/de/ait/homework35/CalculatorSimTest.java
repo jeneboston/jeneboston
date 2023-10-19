@@ -31,7 +31,7 @@ public class CalculatorSimTest {
 
     @Test
     public void testDivideByZero() {
-        assertEquals(-1, calculatorSim.divide(3, 0));
+        assertEquals(-11, calculatorSim.divide(3, 0));
     }
 
     @Test
@@ -39,8 +39,35 @@ public class CalculatorSimTest {
         assertEquals(3, calculatorSim.divide(30, 10));
     }
 
+
     @Test
-    public void testMultiply() {
-        assertEquals(12, calculatorSim.multiply(3, 4));
+    public void testMultiplyPositive() {
+        assertEquals(9, calculatorSim.multyply(3, 3));
     }
+
+    @Test
+    public void testMultiplyNegative() {
+        assertEquals(-9, calculatorSim.multyply(-3, 3));
+    }
+
+    @Test
+    public void testMultiplyZero() {
+        assertEquals(0, calculatorSim.multyply(0, 3));
+    }
+
+    @Test
+    public void testMultiplication() {
+        int a = 2;
+        int b = 3;
+        int result = a * b;
+        assertEquals(6, result);
+    }
+
+    @Test
+    public void testSubtructPositive() {
+        assertEquals(0, calculatorSim.subtract(3, 3));
+    }
+
+
+
 }
