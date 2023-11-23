@@ -1,5 +1,8 @@
 # Ignore target directory
 target/
+!.mvn/wrapper/maven-wrapper.jar
+!/src/main//target/
+!/src/test//target/
 
 # Ignore IDE-specific files and directories
 .idea/

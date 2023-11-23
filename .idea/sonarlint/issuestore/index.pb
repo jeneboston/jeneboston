@@ -16,3 +16,19 @@ Q.idea/sonarlint/securityhotspotstore/7/1/71381584675d186db3e18e30ef843cee860c04
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+Y
+)src/main/java/de/ait/homework34/Book.java,5\6\563c2daa125f925bff93617afbbeb2ed4497ff73
+`
+0src/main/java/de/ait/homework34/BookManager.java,d\5\d5534e8212080cb5078f5c5e9675a265ec831334
+e
+5src/main/java/de/ait/homework37/InventoryManager.java,f\4\f45208d5f3c3f84df9f2539063520b2f4d98cd26
+`
+0src/main/java/de/ait/homework37/MobilePhone.java,f\4\f447d42ace29c946f95a5eef80a431f2a31a5764
+i
+9src/test/java/de/ait/homework37/InventoryManagerTest.java,d\b\db899b813ceb84aa9c60e83180b554a71d93fe09
+c
+3src/main/java/de/ait/collections/CollectionSet.java,0\4\04e48aaba1cf912e6a31865c1322d38353a04e27
+^
+.src/main/java/de/ait/homework36/SuperHero.java,0\d\0d920403ff9e456613d367cbe1af1fde758f7a81
+e
+5src/main/java/de/ait/homework36/SuperHeroManager.java,e\c\ec0944aae1f2bd1d7d2970138522a6bd9a3feafc
